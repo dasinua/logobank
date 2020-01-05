@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Кредиты</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" >
+	<meta name="keywords" content="" >
+	<link rel="icon" href="favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap&subset=cyrillic" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/styles.css">
+	
+</head>
+<body>
+
+<header class="da-header">
+<!-- nav -->
+<section class="da-nav">
+	<div class="container">
+		<div class="da-nav__wrap">
+
+				<!-- logo -->
+				<a class="logo" href="index.html">
+					<img src="images/logo.png" alt="logo.png">
+				</a>
+				<!-- /logo -->
+				
+				<!-- toggle -->
+				<div class="da-nav__toggle">
+					<input type="checkbox" id="checkbox" class="checkbox visuallyHidden">
+				    <label for="checkbox">
+				        <div class="hamburger hamburger1">
+				            <span class="bar bar1"></span>
+				            <span class="bar bar2"></span>
+				            <span class="bar bar3"></span>
+				            <span class="bar bar4"></span>
+				        </div>
+				    </label>
+				</div>
+				<!-- /toggle -->
+				<!-- menu -->
+			    <div class="da-menu" id="daMenu">
+			    	<ul class="da-menu__list">
+			    		<li class="da-menu__item"><a href="index.html">Главная</a></li>
+			    		<li class="da-menu__item"><a href="kredity.html">Кредиты</a></li>
+			    		<li class="da-menu__item"><a href="strakhovaniye.html">Страхование</a></li>
+			    		<li class="da-menu__item"><a href="vklady.html">Вклады</a></li>
+			    	</ul>
+			    </div>
+				<!-- /menu -->
+
+				<!-- button -->
+				<button class="da-btn da-nav__btn lichnyy-kabinet">Личный кабинет</button>
+				<!-- /button -->
+		</div>
+	</div>
+</section>
+<!-- /nav -->
+</header>
+
+<!-- kredity -->
+<div class="da-kredity">
+				
+			<!-- item1 -->
+		    <div class="da-kredity__item da-kredity__item-1">
+
+				<!-- wrap-text -->
+		    	<div class="da-kredity__wrap-text">
+		    		<h2 class="da-kredity__title da-kredity__title-1">
+		    			КРЕДИТ
+		    		</h2>
+		    		<h4 class="da-kredity__subtitle">
+		    			Выгодные условия по кредитам наличными
+						на любые цели
+		    		</h4>
+		    		<h5 class="da-kredity__list">
+		    			Сумма до 3 млн руб
+		    		</h5>
+		    		<h5 class="da-kredity__list">
+		    			Срок кредита — от 2 до 7 лет
+		    		</h5>
+		    		<h5 class="da-kredity__list">
+		    			Ставка от 9.9%
+		    		</h5>
+
+		    		<div class="da-kredity__btn-wrap">
+		    			<button class="da-btn da-kredity__btn da-kredity__btn-1 zayavka-kredita">Получить кредит</button>
+		    			<a href="kredit-nalichnymi.html" class="da-btn da-kredity__btn-link-1">Подробнее</a> 
+		    		</div>
+		    	</div>
+				<!-- /wrap-text -->
+		    </div>
+		   <!-- /item1 -->
+
+		   <!-- item2 -->
+		    <div class="da-kredity__item da-kredity__item-2">
+
+				<!-- wrap-text -->
+		    	<div class="da-kredity__wrap-text">
+		    		<h2 class="da-kredity__title da-kredity__title-2">
+		    			КРЕДИТ
+		    		</h2>
+		    		<h4 class="da-kredity__subtitle">
+		    			Лучший подарок — меньший платеж!
+                        Объедините кредиты до 3 млн рублей
+		    		</h4>
+		    		<h5 class="da-kredity__list">
+		    			Ставка — от 8,9% годовых
+		    		</h5>
+		    		<h5 class="da-kredity__list">
+		    			Срок — от 2 до 7 лет
+		    		</h5>
+		    		<h5 class="da-kredity__list">
+		    			Дополнительный кредит наличными
+		    		</h5>
+
+		    		<div class="da-kredity__btn-wrap">
+		    			<button class="da-btn da-kredity__btn da-kredity__btn-1 zayavka-kredita">Получить кредит</button>
+		    			<a href="kredit-refinansirovaniye.html" class="da-btn da-kredity__btn-link-1">Подробнее</a> 
+		    		</div>
+		    	</div>
+				<!-- /wrap-text -->
+		    </div>
+		   <!-- /item2 -->
+</div>
+<!-- /kredity -->
+
+<footer class="da-footer">
+	<div class="container">
+		<p class="da-footer__title">
+			Copyright 2019 @ 2015-2019, ОА ЛК «LogoBank» | Официальный банк РФ «LogoBank»
+		</p>
+	</div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="js/slick.min.js"></script>
+<script src="js/maskedinput.js"></script>
+<script src="js/script.js"></script>
+
+
+<!-- Личный кабинет -->
+<div id="lichnyyKabinet" class="da-modal da-private">
+	<div class="da-private__wrap">
+		<h5 class="da-private__title">
+			Личный кабинет
+		</h5>
+		<form action="lichnyy-kabinet.html">
+			<input type="email" name="user" class="da-modal__input"  placeholder="Ваш e-mail" required>
+			<input type="password" name="password" class="da-modal__input"  placeholder="Пароль" required>
+			<a href="#" class="da-private__link">Забыли пароль?</a>
+			<button type="submit" class="da-btn da-modal__btn-1">Войти в кабинет</button>
+		</form>
+	</div>
+	
+	<a class="modal-close" title="Закрыть"></a>
+</div>
+<!-- /Личный кабинет -->
+
+
+<!-- Свяжитесь с нами - кредит -->
+<div id="modalKredita" class="da-modal">
+		<h5 class="da-modal__title">
+			Свяжитесь с нами
+		</h5>
+		<!-- form -->
+		<form id="formKredita" enctype="multipart/form-data">
+			<div class="da-modal__wrap">
+
+					<input type="text" name="familiya" class="da-modal__input" placeholder="Как к вам обращаться" required>
+					<input type="text" name="telefon" class="da-modal__input maskedinput" placeholder="Мобильный телефон" required>
+					<input type="email" name="email" class="da-modal__input" placeholder="Электронная почта" required>
+					<textarea name="soobshcheniye" class="da-modal__input da-modal__textarea" placeholder="Текст сообщения"></textarea>
+					<div class="da-modal__zagruzka">
+      					<input type="file" name="file[]" id="file1" class="da-modal__file" accept=".jpg, .jpeg, .png, .zip" multiple required>
+						<label for="file1"><img src="images/download.png" alt="download.png">&nbsp; Прикрепить файл</label>
+					</div>
+			</div>
+
+			<input type="hidden" name="title" class="da-modal__input"  value="Свяжитесь с нами - кредит">
+
+			<div class="da-modal__checkbox-wrap">
+				<input type="checkbox" name="checkbox1" id="modalCheckbox1" value="Предоставляю согласие на обработку персональных данных" required>
+	        	<label for="modalCheckbox1" class="da-modal__checkbox"> Предоставляю <span class="da-modal__checkbox-1">согласие на обработку персональных данных</span></label>
+			</div>
+		    
+			<button type="submit" class="da-btn da-modal__btn-1">Отправить</button>
+		</form>
+		<!-- /form -->
+	
+	<a class="modal-close" title="Закрыть"></a>
+</div>
+<!-- /Свяжитесь с нами - кредит -->
+
+<!-- Свяжитесь с нами - вклад -->
+<div id="modalVklad" class="da-modal">
+		<h5 class="da-modal__title">
+			Свяжитесь с нами
+		</h5>
+		<!-- form -->
+		<form id="formVklad" enctype="multipart/form-data">
+			<div class="da-modal__wrap">
+
+					<input type="text" name="familiya" class="da-modal__input" placeholder="Как к вам обращаться" required>
+					<input type="text" name="telefon" class="da-modal__input maskedinput" placeholder="Мобильный телефон" required>
+					<input type="email" name="email" class="da-modal__input" placeholder="Электронная почта" required>
+					<textarea name="soobshcheniye" class="da-modal__input da-modal__textarea" placeholder="Текст сообщения"></textarea>
+					<div class="da-modal__zagruzka">
+      					<input type="file" name="file[]" id="file2" class="da-modal__file" accept=".jpg, .jpeg, .png, .zip" multiple required>
+						<label for="file2"><img src="images/download.png" alt="download.png">&nbsp; Прикрепить файл</label>
+					</div>
+			</div>
+
+			<input type="hidden" name="title" class="da-modal__input"  value="Свяжитесь с нами - вклад">
+
+			<div class="da-modal__checkbox-wrap">
+				<input type="checkbox" name="checkbox1" id="modalCheckbox2" value="Предоставляю согласие на обработку персональных данных" required>
+	        	<label for="modalCheckbox2" class="da-modal__checkbox"> Предоставляю <span class="da-modal__checkbox-2">согласие на обработку персональных данных</span></label>
+			</div>
+		    
+			<button type="submit" class="da-btn da-modal__btn-2">Отправить</button>
+		</form>
+		<!-- /form -->
+	
+	<a class="modal-close modal-close-2" title="Закрыть"></a>
+</div>
+<!-- /Свяжитесь с нами - вклад -->
+
+<!-- Свяжитесь с нами - кредитка -->
+<div id="modalKreditka" class="da-modal">
+		<h5 class="da-modal__title">
+			Свяжитесь с нами
+		</h5>
+		<!-- form -->
+		<form id="formKreditka" enctype="multipart/form-data">
+			<div class="da-modal__wrap">
+
+					<input type="text" name="familiya" class="da-modal__input" placeholder="Как к вам обращаться" required>
+					<input type="text" name="telefon" class="da-modal__input maskedinput" placeholder="Мобильный телефон" required>
+					<input type="email" name="email" class="da-modal__input" placeholder="Электронная почта" required>
+					<textarea name="soobshcheniye" class="da-modal__input da-modal__textarea" placeholder="Текст сообщения"></textarea>
+					<div class="da-modal__zagruzka">
+      					<input type="file" name="file[]" id="file3" class="da-modal__file" accept=".jpg, .jpeg, .png, .zip" multiple required>
+						<label for="file3"><img src="images/download.png" alt="download.png">&nbsp; Прикрепить файл</label>
+					</div>
+			</div>
+
+			<input type="hidden" name="title" class="da-modal__input"  value="Свяжитесь с нами - кредитка">
+
+			<div class="da-modal__checkbox-wrap">
+				<input type="checkbox" name="checkbox1" id="modalCheckbox3" value="Предоставляю согласие на обработку персональных данных" required>
+	        	<label for="modalCheckbox3" class="da-modal__checkbox"> Предоставляю <span class="da-modal__checkbox-3">согласие на обработку персональных данных</span></label>
+			</div>
+		    
+			<button type="submit" class="da-btn da-modal__btn-3">Отправить</button>
+		</form>
+		<!-- /form -->
+	
+	<a class="modal-close modal-close-3" title="Закрыть"></a>
+</div>
+<!-- /Свяжитесь с нами - кредитка -->
+
+<!-- Свяжитесь с нами - страхование -->
+<div id="modalStrakhovaniye" class="da-modal">
+		<h5 class="da-modal__title">
+			Свяжитесь с нами
+		</h5>
+		<!-- form -->
+		<form id="formStrakhovaniye" enctype="multipart/form-data">
+			<div class="da-modal__wrap">
+
+					<input type="text" name="familiya" class="da-modal__input" placeholder="Как к вам обращаться" required>
+					<input type="text" name="telefon" class="da-modal__input maskedinput" placeholder="Мобильный телефон" required>
+					<input type="email" name="email" class="da-modal__input" placeholder="Электронная почта" required>
+					<textarea name="soobshcheniye" class="da-modal__input da-modal__textarea" placeholder="Текст сообщения"></textarea>
+					<div class="da-modal__zagruzka">
+      					<input type="file" name="file[]" id="file4" class="da-modal__file" accept=".jpg, .jpeg, .png, .zip" multiple required>
+						<label for="file4"><img src="images/download.png" alt="download.png">&nbsp; Прикрепить файл</label>
+					</div>
+			</div>
+
+			<input type="hidden" name="title" class="da-modal__input"  value="Свяжитесь с нами - страхование">
+
+			<div class="da-modal__checkbox-wrap">
+				<input type="checkbox" name="checkbox1" id="modalCheckbox4" value="Предоставляю согласие на обработку персональных данных" required>
+	        	<label for="modalCheckbox4" class="da-modal__checkbox"> Предоставляю <span class="da-modal__checkbox-3">согласие на обработку персональных данных</span></label>
+			</div>
+		    
+			<button type="submit" class="da-btn da-modal__btn-3">Отправить</button>
+		</form>
+		<!-- /form -->
+	
+	<a class="modal-close modal-close-3" title="Закрыть"></a>
+</div>
+<!-- /Свяжитесь с нами - страхование -->
+
+<!-- Остались вопросы? -->
+<div id="modalVoprosy" class="da-modal">
+		<h5 class="da-modal__title">
+			Остались вопросы?
+		</h5>
+		<!-- form -->
+		<form id="formVoprosy" enctype="multipart/form-data">
+			<div class="da-modal__wrap">
+
+					<input type="text" name="familiya" class="da-modal__input" placeholder="Как к вам обращаться" required>
+					<input type="text" name="telefon" class="da-modal__input maskedinput" placeholder="Мобильный телефон" required>
+					<input type="email" name="email" class="da-modal__input" placeholder="Электронная почта" required>
+					
+			</div>
+			<input type="hidden" name="title" class="da-modal__input"  value="Остались вопросы?">
+		    
+			<button type="submit" class="da-btn da-modal__btn-1">Отправить</button>
+		</form>
+		<!-- /form -->
+	
+	<a class="modal-close modal-close-1" title="Закрыть"></a>
+</div>
+<!-- /Остались вопросы? -->
+
+<!-- thanks -->
+<div id="thanks" class="da-modal da-thanks">
+	<div class="da-modal__thanks">
+
+		<h2 class="da-thanks__title">
+			Спасибо за заявку!
+		</h2>
+		<h5 class="da-thanks__text">
+			Ваш персональный менеджер <br>
+	        Вам перезвонит
+		</h5>
+	</div>
+	<a class="modal-close" title="Закрыть"></a>
+</div>
+<div class="overlay"></div>
+<!-- /thanks -->
+
+
+</body>
+</html>
